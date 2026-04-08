@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /thank-you/
+
+Sitemap: https://homerunfabrication.com/sitemap.xml
+Sitemap: https://homerunfabrication.com/sitemap-images.xml
