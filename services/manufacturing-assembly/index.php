@@ -31,7 +31,7 @@ $schemaMarkup = <<<JSON
         "telephone": "+1-806-671-7930",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "14001 White Tail Avenue",
+          "streetAddress": "18771 19th Street",
           "addressLocality": "Amarillo",
           "addressRegion": "TX",
           "postalCode": "79124",

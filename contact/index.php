@@ -30,7 +30,7 @@ $schemaMarkup = <<<JSON
         "email": "coreyhomer@att.net",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "14001 White Tail Avenue",
+          "streetAddress": "18771 19th Street",
           "addressLocality": "Amarillo",
           "addressRegion": "TX",
           "postalCode": "79124",
@@ -149,7 +149,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
               <i data-lucide="map-pin"></i>
               <div>
                 <span class="label">Address</span>
-                <span class="value">14001 White Tail Avenue<br>Amarillo, TX 79124</span>
+                <span class="value">18771 19th Street<br>Amarillo, TX 79124</span>
               </div>
             </div>
 
@@ -181,11 +181,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="section-head" data-animate>
         <span class="section-rule"></span>
         <h2>Find Us in Amarillo</h2>
-        <p class="section-sub">14001 White Tail Avenue, Amarillo, TX 79124 &mdash; visits by appointment.</p>
+        <p class="section-sub">18771 19th Street, Amarillo, TX 79124 &mdash; visits by appointment.</p>
       </div>
       <div class="map-embed" data-animate>
         <iframe
-          src="https://www.google.com/maps?q=14001+White+Tail+Avenue,+Amarillo,+TX+79124&output=embed"
+          src="https://www.google.com/maps?q=18771+19th+Street,+Amarillo,+TX+79124&output=embed"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="Map of Homerun Fabrication, Amarillo, TX"></iframe>

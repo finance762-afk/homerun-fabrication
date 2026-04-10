@@ -15,7 +15,7 @@ $useTyped  = $useTyped  ?? false;
         Homerun Fabrication is a metal fabrication company based in Amarillo, Texas, serving the Texas Panhandle. We specialize in steel buildings, barndominiums, custom fabrication, pipe fencing, and industrial design. Licensed and insured.
       </p>
       <p style="margin-top: var(--space-md);">
-        14001 White Tail Avenue<br>
+        18771 19th Street<br>
         Amarillo, TX 79124<br>
         <a href="tel:+18066717930">(806) 671-7930</a><br>
         <a href="mailto:coreyhomer@att.net">coreyhomer@att.net</a><br>

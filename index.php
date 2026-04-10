@@ -26,7 +26,7 @@ $schemaMarkup = <<<JSON
       "priceRange": "\$\$-\$\$\$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "14001 White Tail Avenue",
+        "streetAddress": "18771 19th Street",
         "addressLocality": "Amarillo",
         "addressRegion": "TX",
         "postalCode": "79124",
