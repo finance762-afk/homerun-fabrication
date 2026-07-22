@@ -77,7 +77,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2>Request a Quote</h2>
           <p class="form-intro">Send us the details of your project &mdash; size, scope, location, and timeline. Corey or someone on the crew will get back to you to set up a site walk.</p>
 
-          <form action="https://formsubmit.co/coreyhomer@att.net" method="POST">
+          <form action="https://db.pageone.cloud/functions/v1/leads/homerun-fabrication" method="POST">
             <input type="hidden" name="_next" value="https://homerunfabrication.com/thank-you">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
