@@ -2,7 +2,7 @@
 $pageTitle        = "Contact Homerun Fabrication | Amarillo, TX";
 $pageDescription  = "Contact Homerun Fabrication in Amarillo, TX. Call (806) 671-7930 for steel buildings, barndominiums, and metal fabrication quotes.";
 $canonicalUrl     = "https://homerunfabrication.com/contact";
-$ogImage          = "https://i.imgur.com/AYsPb3v.jpeg";
+$ogImage          = "/assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp";
 $currentPage      = "contact";
 $useSwiper        = false;
 $useTilt          = false;
@@ -49,7 +49,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.7) 0%, rgba(15,28,36,0.9) 100%), url('https://i.imgur.com/AYsPb3v.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.7) 0%, rgba(15,28,36,0.9) 100%), url('/assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp');">
     <div class="container">
       <span class="page-eyebrow">Contact &middot; Amarillo, TX</span>
       <h1>Contact Homerun Fabrication &mdash; Amarillo, TX</h1>

@@ -2,12 +2,12 @@
 $pageTitle        = "Industrial Steel Design in Amarillo, TX | Homerun Fab";
 $pageDescription  = "Engineered structural steel solutions in Amarillo, TX. Industrial fabrication for ag, oilfield, and commercial projects since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/services/industrial-design";
-$ogImage          = "https://i.imgur.com/GxHRVdi.jpeg";
+$ogImage          = "/assets/images/gxhrvdi-480.webp";
 $currentPage      = "services";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/GxHRVdi.jpeg";
+$heroImagePreload = "/assets/images/gxhrvdi-480.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('https://i.imgur.com/GxHRVdi.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('/assets/images/gxhrvdi-480.webp');">
     <div class="container">
       <span class="page-eyebrow">Service &middot; Industrial Design</span>
       <h1>Industrial Steel Design in Amarillo, TX</h1>
@@ -114,7 +114,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/Hty25UB.jpeg" alt="Interior mid-framing with ZIP System sheathing on a Homerun Fabrication industrial build" loading="lazy" width="800" height="600">
+          <img src="/assets/images/interior-mid-framing-with-zip-system-sheathing-o-960.webp" srcset="/assets/images/interior-mid-framing-with-zip-system-sheathing-o-480.webp 480w, /assets/images/interior-mid-framing-with-zip-system-sheathing-o-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Interior mid-framing with ZIP System sheathing on a Homerun Fabrication industrial build" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>Engineered Steel That Has to Work</h2>
@@ -154,7 +154,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/JUVxGOI.jpeg" alt="Two-story Homerun Fabrication building under construction with steel and wood framing" loading="lazy" width="800" height="600">
+          <img src="/assets/images/two-story-homerun-fabrication-building-under-con-960.webp" srcset="/assets/images/two-story-homerun-fabrication-building-under-con-480.webp 480w, /assets/images/two-story-homerun-fabrication-building-under-con-960.webp 960w, /assets/images/two-story-homerun-fabrication-building-under-con-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Two-story Homerun Fabrication building under construction with steel and wood framing" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>

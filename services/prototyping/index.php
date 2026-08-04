@@ -2,12 +2,12 @@
 $pageTitle        = "Prototype Fabrication in Amarillo, TX | Homerun Fab";
 $pageDescription  = "Custom metal prototype fabrication in Amarillo, TX. Single-unit and small-batch steel prototypes for inventors and engineers since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/services/prototyping";
-$ogImage          = "https://i.imgur.com/hP3ywCs.jpeg";
+$ogImage          = "/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp";
 $currentPage      = "services";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/hP3ywCs.jpeg";
+$heroImagePreload = "/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('https://i.imgur.com/hP3ywCs.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp');">
     <div class="container">
       <span class="page-eyebrow">Service &middot; Prototyping</span>
       <h1>Prototype Fabrication in Amarillo, TX</h1>
@@ -120,7 +120,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>That's where an in-house fabrication shop earns its keep. We build the first part, hand it back with notes on what we'd change for production, and iterate from there.</p>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/ArVl8TB.jpeg" alt="Interior of Homerun Fabrication metal building used for prototype and fabrication work" loading="lazy" width="800" height="600">
+          <img src="/assets/images/interior-of-homerun-fabrication-metal-building-u-960.webp" srcset="/assets/images/interior-of-homerun-fabrication-metal-building-u-480.webp 480w, /assets/images/interior-of-homerun-fabrication-metal-building-u-960.webp 960w, /assets/images/interior-of-homerun-fabrication-metal-building-u-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Interior of Homerun Fabrication metal building used for prototype and fabrication work" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>

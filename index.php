@@ -2,12 +2,12 @@
 $pageTitle        = "Steel Buildings & Barndominiums in Amarillo, TX";
 $pageDescription  = "Custom steel buildings, barndominiums, and metal fabrication in Amarillo, TX. Ground-up builds across the Texas Panhandle since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/";
-$ogImage          = "https://i.imgur.com/GxHRVdi.jpeg";
+$ogImage          = "/assets/images/gxhrvdi-480.webp";
 $currentPage      = "home";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/GxHRVdi.jpeg";
+$heroImagePreload = "/assets/images/gxhrvdi-480.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -17,7 +17,7 @@ $schemaMarkup = <<<JSON
       "@type": "LocalBusiness",
       "@id": "https://homerunfabrication.com/#business",
       "name": "Homerun Fabrication",
-      "image": "https://i.imgur.com/oTQIMmj.png",
+      "image": "/assets/images/logo.png",
       "url": "https://homerunfabrication.com/",
       "telephone": "+1-806-671-7930",
       "email": "coreyhomer@att.net",
@@ -58,7 +58,7 @@ $schemaMarkup = <<<JSON
       "@id": "https://homerunfabrication.com/#org",
       "name": "Homerun Fabrication",
       "url": "https://homerunfabrication.com/",
-      "logo": "https://i.imgur.com/oTQIMmj.png",
+      "logo": "/assets/images/logo.png",
       "founder": "Corey Homer",
       "foundingDate": "2008"
     },
@@ -242,7 +242,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/dMdt0AE.jpeg" alt="Two-story barndominium built by Homerun Fabrication at dusk in the Texas Panhandle" loading="lazy" width="800" height="600">
+          <img src="/assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp" srcset="/assets/images/two-story-barndominium-built-by-homerun-fabricat-480.webp 480w, /assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Two-story barndominium built by Homerun Fabrication at dusk in the Texas Panhandle" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2 id="why-heading">Why Homerun Fabrication</h2>
@@ -320,7 +320,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <a href="/about" class="btn-secondary btn-dark" style="margin-top: var(--space-md);">More About Homerun &rarr;</a>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/C2ZjmOA.jpeg" alt="Finished barndominium living room with stone fireplace and wood beam ceiling built by Homerun Fabrication" loading="lazy" width="800" height="600">
+          <img src="/assets/images/finished-barndominium-living-room-with-stone-fir-480.webp" alt="Finished barndominium living room with stone fireplace and wood beam ceiling built by Homerun Fabrication" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -337,27 +337,27 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
       <div class="gallery-grid">
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/L6MMHUi.jpeg" alt="Dark charcoal barndominium with covered front porch built by Homerun Fabrication" loading="lazy" width="800" height="600">
+          <img src="/assets/images/dark-charcoal-barndominium-with-covered-front-po-960.webp" srcset="/assets/images/dark-charcoal-barndominium-with-covered-front-po-480.webp 480w, /assets/images/dark-charcoal-barndominium-with-covered-front-po-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Dark charcoal barndominium with covered front porch built by Homerun Fabrication" loading="lazy" width="800" height="600">
           <figcaption class="gallery-overlay"><span class="gallery-label">Barndominium</span></figcaption>
         </figure>
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/hP3ywCs.jpeg" alt="Finished steel shop interior with high ceilings and LED lighting" loading="lazy" width="800" height="600">
+          <img src="/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp" srcset="/assets/images/finished-steel-shop-interior-with-high-ceilings-480.webp 480w, /assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Finished steel shop interior with high ceilings and LED lighting" loading="lazy" width="800" height="600">
           <figcaption class="gallery-overlay"><span class="gallery-label">Shop Interior</span></figcaption>
         </figure>
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/BHkLFG0.jpeg" alt="Custom kitchen build-out with gray cabinets and pendant lights inside a Homerun Fabrication barndominium" loading="lazy" width="800" height="600">
+          <img src="/assets/images/custom-kitchen-build-out-with-gray-cabinets-and-480.webp" alt="Custom kitchen build-out with gray cabinets and pendant lights inside a Homerun Fabrication barndominium" loading="lazy" width="800" height="600">
           <figcaption class="gallery-overlay"><span class="gallery-label">Kitchen Build-Out</span></figcaption>
         </figure>
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/5cECBcL.jpeg" alt="Covered cattle pen with heavy-duty pipe railing in the Texas Panhandle" loading="lazy" width="800" height="600">
+          <img src="/assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-960.webp" srcset="/assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-480.webp 480w, /assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Covered cattle pen with heavy-duty pipe railing in the Texas Panhandle" loading="lazy" width="800" height="600">
           <figcaption class="gallery-overlay"><span class="gallery-label">Cattle Facilities</span></figcaption>
         </figure>
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/kgpw7N8.jpeg" alt="Completed steel building with tan siding and attached garage" loading="lazy" width="800" height="600">
+          <img src="/assets/images/completed-steel-building-with-tan-siding-and-att-960.webp" srcset="/assets/images/completed-steel-building-with-tan-siding-and-att-480.webp 480w, /assets/images/completed-steel-building-with-tan-siding-and-att-960.webp 960w, /assets/images/completed-steel-building-with-tan-siding-and-att-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Completed steel building with tan siding and attached garage" loading="lazy" width="800" height="600">
           <figcaption class="gallery-overlay"><span class="gallery-label">Steel Building</span></figcaption>
         </figure>
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/HQmqU97.jpeg" alt="Bi-fold glass doors opening to a covered patio in a custom Homerun Fabrication living space" loading="lazy" width="800" height="600">
+          <img src="/assets/images/bi-fold-glass-doors-opening-to-a-covered-patio-i-960.webp" srcset="/assets/images/bi-fold-glass-doors-opening-to-a-covered-patio-i-480.webp 480w, /assets/images/bi-fold-glass-doors-opening-to-a-covered-patio-i-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Bi-fold glass doors opening to a covered patio in a custom Homerun Fabrication living space" loading="lazy" width="800" height="600">
           <figcaption class="gallery-overlay"><span class="gallery-label">Custom Living Space</span></figcaption>
         </figure>
       </div>

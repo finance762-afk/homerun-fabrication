@@ -2,12 +2,12 @@
 $pageTitle        = "Pipe Fencing in Amarillo, TX | Homerun Fabrication";
 $pageDescription  = "Welded pipe fencing, cattle pens, and alley chutes in Amarillo, TX. Heavy-duty livestock fencing for the Texas Panhandle since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/services/pipe-fencing";
-$ogImage          = "https://i.imgur.com/5cECBcL.jpeg";
+$ogImage          = "/assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-960.webp";
 $currentPage      = "services";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/5cECBcL.jpeg";
+$heroImagePreload = "/assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-960.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.6) 0%, rgba(15,28,36,0.85) 100%), url('https://i.imgur.com/5cECBcL.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.6) 0%, rgba(15,28,36,0.85) 100%), url('/assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-960.webp');">
     <div class="container">
       <span class="page-eyebrow">Service &middot; Pipe Fencing</span>
       <h1>Pipe Fencing in Amarillo, TX</h1>
@@ -114,7 +114,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/WKJGXcc.jpeg" alt="Cattle alley chute with rubber matting built by Homerun Fabrication" loading="lazy" width="800" height="600">
+          <img src="/assets/images/cattle-alley-chute-with-rubber-matting-built-by-960.webp" srcset="/assets/images/cattle-alley-chute-with-rubber-matting-built-by-480.webp 480w, /assets/images/cattle-alley-chute-with-rubber-matting-built-by-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Cattle alley chute with rubber matting built by Homerun Fabrication" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>Working Facilities Built for Pressure</h2>
@@ -147,7 +147,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>Cover spans are tied into the same red-iron framing we use for ag steel buildings, so they're rated for Panhandle wind loads and built to last as long as the pens underneath them.</p>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/lmedEkF.jpeg" alt="Covered working area with pipe railing on a Texas Panhandle ranch" loading="lazy" width="800" height="600">
+          <img src="/assets/images/covered-working-area-with-pipe-railing-on-a-texa-960.webp" srcset="/assets/images/covered-working-area-with-pipe-railing-on-a-texa-480.webp 480w, /assets/images/covered-working-area-with-pipe-railing-on-a-texa-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Covered working area with pipe railing on a Texas Panhandle ranch" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -195,7 +195,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/N4miID1.jpeg" alt="Barn interior with welded pipe livestock pen gates by Homerun Fabrication" loading="lazy" width="800" height="600">
+          <img src="/assets/images/barn-interior-with-welded-pipe-livestock-pen-gat-960.webp" srcset="/assets/images/barn-interior-with-welded-pipe-livestock-pen-gat-480.webp 480w, /assets/images/barn-interior-with-welded-pipe-livestock-pen-gat-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Barn interior with welded pipe livestock pen gates by Homerun Fabrication" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>Inside the Barn, Too</h2>

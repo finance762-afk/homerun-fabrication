@@ -2,12 +2,12 @@
 $pageTitle        = "Custom Metal Fabrication in Amarillo, TX | Homerun";
 $pageDescription  = "Custom metal fabrication and welding in Amarillo, TX. Structural steel, brackets, and one-off components built in our shop since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/services/custom-fabrication";
-$ogImage          = "https://i.imgur.com/hP3ywCs.jpeg";
+$ogImage          = "/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp";
 $currentPage      = "services";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/hP3ywCs.jpeg";
+$heroImagePreload = "/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('https://i.imgur.com/hP3ywCs.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp');">
     <div class="container">
       <span class="page-eyebrow">Service &middot; Custom Fabrication</span>
       <h1>Custom Metal Fabrication in Amarillo, TX</h1>
@@ -127,7 +127,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/AYsPb3v.jpeg" alt="Homerun Fabrication shop building with stone wainscoting and signage in Amarillo, TX" loading="lazy" width="800" height="600">
+          <img src="/assets/images/homerun-fabrication-shop-building-with-stone-wai-960.webp" srcset="/assets/images/homerun-fabrication-shop-building-with-stone-wai-480.webp 480w, /assets/images/homerun-fabrication-shop-building-with-stone-wai-960.webp 960w, /assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Homerun Fabrication shop building with stone wainscoting and signage in Amarillo, TX" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -148,7 +148,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/J9csThM.jpeg" alt="Steel columns rising from a poured concrete slab on a Homerun Fabrication build site" loading="lazy" width="800" height="600">
+          <img src="/assets/images/steel-columns-rising-from-a-poured-concrete-slab-960.webp" srcset="/assets/images/steel-columns-rising-from-a-poured-concrete-slab-480.webp 480w, /assets/images/steel-columns-rising-from-a-poured-concrete-slab-960.webp 960w, /assets/images/steel-columns-rising-from-a-poured-concrete-slab-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Steel columns rising from a poured concrete slab on a Homerun Fabrication build site" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>Built for the Job, Not the Catalog</h2>

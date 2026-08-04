@@ -2,12 +2,12 @@
 $pageTitle        = "Manufacturing & Assembly | Amarillo, TX | Homerun Fab";
 $pageDescription  = "Production manufacturing and contract assembly in Amarillo, TX. Repeat batch runs and weldments for ag and industrial customers since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/services/manufacturing-assembly";
-$ogImage          = "https://i.imgur.com/lGNo1JA.jpeg";
+$ogImage          = "/assets/images/lgno1ja-480.webp";
 $currentPage      = "services";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/lGNo1JA.jpeg";
+$heroImagePreload = "/assets/images/lgno1ja-480.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('https://i.imgur.com/lGNo1JA.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('/assets/images/lgno1ja-480.webp');">
     <div class="container">
       <span class="page-eyebrow">Service &middot; Manufacturing &amp; Assembly</span>
       <h1>Manufacturing &amp; Assembly in Amarillo, TX</h1>
@@ -120,7 +120,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>That means consistent parts, written quotes, real delivery dates, and a phone you can call when you need to talk to the person actually building your work.</p>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/eBkd4Er.jpeg" alt="Interior of Homerun Fabrication production shop with corrugated panel walls and red columns" loading="lazy" width="800" height="600">
+          <img src="/assets/images/interior-of-homerun-fabrication-production-shop-960.webp" srcset="/assets/images/interior-of-homerun-fabrication-production-shop-480.webp 480w, /assets/images/interior-of-homerun-fabrication-production-shop-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Interior of Homerun Fabrication production shop with corrugated panel walls and red columns" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/BSqWYTy.jpeg" alt="Side of Homerun Fabrication metal building showing utility setup and equipment" loading="lazy" width="800" height="600">
+          <img src="/assets/images/side-of-homerun-fabrication-metal-building-showi-960.webp" srcset="/assets/images/side-of-homerun-fabrication-metal-building-showi-480.webp 480w, /assets/images/side-of-homerun-fabrication-metal-building-showi-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Side of Homerun Fabrication metal building showing utility setup and equipment" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>From Prototype to Production</h2>

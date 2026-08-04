@@ -2,12 +2,12 @@
 $pageTitle        = "Barndominiums in Amarillo, TX | Homerun Fabrication";
 $pageDescription  = "Custom barndominium builder in Amarillo, TX. Steel-frame homes with finished kitchens, bathrooms, and living spaces. Texas Panhandle, since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/services/barndominiums";
-$ogImage          = "https://i.imgur.com/dMdt0AE.jpeg";
+$ogImage          = "/assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp";
 $currentPage      = "services";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/dMdt0AE.jpeg";
+$heroImagePreload = "/assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.6) 0%, rgba(15,28,36,0.85) 100%), url('https://i.imgur.com/dMdt0AE.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.6) 0%, rgba(15,28,36,0.85) 100%), url('/assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp');">
     <div class="container">
       <span class="page-eyebrow">Service &middot; Barndominiums</span>
       <h1>Custom Barndominiums in Amarillo, TX</h1>
@@ -125,15 +125,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
       <div class="wide-gallery">
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/dMdt0AE.jpeg" alt="Two-story barndominium built by Homerun Fabrication at dusk in Amarillo, TX" loading="lazy" width="1200" height="900">
+          <img src="/assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp" srcset="/assets/images/two-story-barndominium-built-by-homerun-fabricat-480.webp 480w, /assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp 960w" sizes="(max-width: 768px) 100vw, 1200px" alt="Two-story barndominium built by Homerun Fabrication at dusk in Amarillo, TX" loading="lazy" width="1200" height="900">
           <figcaption class="gallery-overlay"><span class="gallery-label">Two-Story Build</span></figcaption>
         </figure>
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/L6MMHUi.jpeg" alt="Dark charcoal barndominium with covered porch" loading="lazy" width="800" height="600">
+          <img src="/assets/images/dark-charcoal-barndominium-with-covered-front-po-960.webp" srcset="/assets/images/dark-charcoal-barndominium-with-covered-front-po-480.webp 480w, /assets/images/dark-charcoal-barndominium-with-covered-front-po-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Dark charcoal barndominium with covered porch" loading="lazy" width="800" height="600">
           <figcaption class="gallery-overlay"><span class="gallery-label">Charcoal Exterior</span></figcaption>
         </figure>
         <figure class="gallery-item" data-animate>
-          <img src="https://i.imgur.com/RUrOoEf.jpeg" alt="Gray barndominium with wood post porch overhang" loading="lazy" width="800" height="600">
+          <img src="/assets/images/gray-barndominium-with-wood-post-porch-overhang-960.webp" srcset="/assets/images/gray-barndominium-with-wood-post-porch-overhang-480.webp 480w, /assets/images/gray-barndominium-with-wood-post-porch-overhang-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Gray barndominium with wood post porch overhang" loading="lazy" width="800" height="600">
           <figcaption class="gallery-overlay"><span class="gallery-label">Wood Post Porch</span></figcaption>
         </figure>
       </div>
@@ -151,7 +151,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>Why steel instead of conventional stick framing? Three reasons that matter in the Panhandle: wind load capacity, span flexibility, and longevity. Steel takes the structural load, lumber takes the interior partitions, and you end up with a home that handles 70+ mph gusts without flinching.</p>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/L6MMHUi.jpeg" alt="Charcoal barndominium with covered front porch built by Homerun Fabrication" loading="lazy" width="800" height="600">
+          <img src="/assets/images/dark-charcoal-barndominium-with-covered-front-po-960.webp" srcset="/assets/images/dark-charcoal-barndominium-with-covered-front-po-480.webp 480w, /assets/images/dark-charcoal-barndominium-with-covered-front-po-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Charcoal barndominium with covered front porch built by Homerun Fabrication" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -172,7 +172,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/C2ZjmOA.jpeg" alt="Finished barndominium living room with stacked stone fireplace and wood beam ceiling" loading="lazy" width="800" height="600">
+          <img src="/assets/images/finished-barndominium-living-room-with-stone-fir-480.webp" alt="Finished barndominium living room with stacked stone fireplace and wood beam ceiling" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>Custom Interiors, Finished In-House</h2>
@@ -201,7 +201,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/BHkLFG0.jpeg" alt="Custom barndominium kitchen with gray cabinets, quartz countertops, and pendant lights" loading="lazy" width="800" height="600">
+          <img src="/assets/images/custom-kitchen-build-out-with-gray-cabinets-and-480.webp" alt="Custom barndominium kitchen with gray cabinets, quartz countertops, and pendant lights" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -212,7 +212,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/HQmqU97.jpeg" alt="Bi-fold glass doors opening to a covered patio in a Homerun Fabrication barndominium" loading="lazy" width="800" height="600">
+          <img src="/assets/images/bi-fold-glass-doors-opening-to-a-covered-patio-i-960.webp" srcset="/assets/images/bi-fold-glass-doors-opening-to-a-covered-patio-i-480.webp 480w, /assets/images/bi-fold-glass-doors-opening-to-a-covered-patio-i-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Bi-fold glass doors opening to a covered patio in a Homerun Fabrication barndominium" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>Indoor-Outdoor Living</h2>

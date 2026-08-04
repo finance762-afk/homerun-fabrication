@@ -2,12 +2,12 @@
 $pageTitle        = "Steel Buildings in Amarillo, TX | Homerun Fabrication";
 $pageDescription  = "Engineered steel buildings in Amarillo, TX. Shops, barns, and commercial structures built for Texas Panhandle wind loads since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/services/steel-buildings";
-$ogImage          = "https://i.imgur.com/lGNo1JA.jpeg";
+$ogImage          = "/assets/images/lgno1ja-480.webp";
 $currentPage      = "services";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/lGNo1JA.jpeg";
+$heroImagePreload = "/assets/images/lgno1ja-480.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('https://i.imgur.com/lGNo1JA.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('/assets/images/lgno1ja-480.webp');">
     <div class="container">
       <span class="page-eyebrow">Service &middot; Steel Buildings</span>
       <h1>Steel Buildings in Amarillo, TX</h1>
@@ -136,7 +136,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/OcsS5C4.jpeg" alt="Completed Homerun Fabrication metal shop with tan siding and rollup door in Amarillo, TX" loading="lazy" width="800" height="600">
+          <img src="/assets/images/completed-homerun-fabrication-metal-shop-with-ta-960.webp" srcset="/assets/images/completed-homerun-fabrication-metal-shop-with-ta-480.webp 480w, /assets/images/completed-homerun-fabrication-metal-shop-with-ta-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Completed Homerun Fabrication metal shop with tan siding and rollup door in Amarillo, TX" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/FFg8OXE.jpeg" alt="Interior of Homerun Fabrication steel building with red purlins and OSB subfloor" loading="lazy" width="800" height="600">
+          <img src="/assets/images/interior-of-homerun-fabrication-steel-building-w-960.webp" srcset="/assets/images/interior-of-homerun-fabrication-steel-building-w-480.webp 480w, /assets/images/interior-of-homerun-fabrication-steel-building-w-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Interior of Homerun Fabrication steel building with red purlins and OSB subfloor" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>Engineered for Panhandle Wind</h2>

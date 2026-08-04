@@ -52,7 +52,6 @@ $noindex         = $noindex         ?? false;
   <link rel="dns-prefetch" href="https://unpkg.com">
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
   <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
-  <link rel="dns-prefetch" href="https://i.imgur.com">
 
   <!-- Google Fonts — Oswald + Source Sans 3 (industrial/construction pairing) -->
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -69,7 +68,7 @@ $noindex         = $noindex         ?? false;
   <?php endif; ?>
 
   <!-- Stylesheet (cache-busted) -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
 
   <!-- Favicon -->
   <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">

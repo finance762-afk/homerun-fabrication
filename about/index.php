@@ -2,12 +2,12 @@
 $pageTitle        = "About Homerun Fabrication | Amarillo, TX Builder";
 $pageDescription  = "Founded in 2008 by Corey Homer. Custom steel buildings and barndominiums across the Texas Panhandle, built ground-up by one accountable crew.";
 $canonicalUrl     = "https://homerunfabrication.com/about";
-$ogImage          = "https://i.imgur.com/AYsPb3v.jpeg";
+$ogImage          = "/assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp";
 $currentPage      = "about";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/AYsPb3v.jpeg";
+$heroImagePreload = "/assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -25,7 +25,7 @@ $schemaMarkup = <<<JSON
       "@id": "https://homerunfabrication.com/#org",
       "name": "Homerun Fabrication",
       "url": "https://homerunfabrication.com/",
-      "logo": "https://i.imgur.com/oTQIMmj.png",
+      "logo": "/assets/images/logo.png",
       "founder": {
         "@type": "Person",
         "name": "Corey Homer",
@@ -68,7 +68,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('https://i.imgur.com/AYsPb3v.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('/assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp');">
     <div class="container">
       <span class="page-eyebrow">About Us &middot; Since 2008</span>
       <h1>About Homerun Fabrication &mdash; Amarillo, TX</h1>
@@ -111,7 +111,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>That hands-on approach is what built the company, and it's what most customers tell us is the difference between Homerun and the rest of the field. When you call, you talk to the person actually building your project. When you walk the site mid-build, the same crew that erected your steel is the crew framing your interior walls.</p>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/AYsPb3v.jpeg" alt="Homerun Fabrication shop building with stone wainscoting and signage in Amarillo, TX" loading="lazy" width="800" height="600">
+          <img src="/assets/images/homerun-fabrication-shop-building-with-stone-wai-960.webp" srcset="/assets/images/homerun-fabrication-shop-building-with-stone-wai-480.webp 480w, /assets/images/homerun-fabrication-shop-building-with-stone-wai-960.webp 960w, /assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Homerun Fabrication shop building with stone wainscoting and signage in Amarillo, TX" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -122,7 +122,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/dMdt0AE.jpeg" alt="Two-story barndominium built by Homerun Fabrication at dusk in the Texas Panhandle" loading="lazy" width="800" height="600">
+          <img src="/assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp" srcset="/assets/images/two-story-barndominium-built-by-homerun-fabricat-480.webp 480w, /assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Two-story barndominium built by Homerun Fabrication at dusk in the Texas Panhandle" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>One Crew. Steel Through Finish.</h2>
@@ -151,7 +151,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>That breadth isn't an accident &mdash; it's the result of running a real fabrication shop alongside a construction company. The same crew that welds 2-7/8" oilfield pipe into a working chute also frames a wall, sets a cabinet, and trims out a window. The skills compound. The customer benefits.</p>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/C2ZjmOA.jpeg" alt="Finished barndominium living room with stacked stone fireplace and wood beam ceiling by Homerun Fabrication" loading="lazy" width="800" height="600">
+          <img src="/assets/images/finished-barndominium-living-room-with-stone-fir-480.webp" alt="Finished barndominium living room with stacked stone fireplace and wood beam ceiling by Homerun Fabrication" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split split-why">
         <div class="split-image">
-          <img src="https://i.imgur.com/hP3ywCs.jpeg" alt="Interior of Homerun Fabrication shop with high ceilings, LED lighting, and tools" loading="lazy" width="800" height="600">
+          <img src="/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp" srcset="/assets/images/finished-steel-shop-interior-with-high-ceilings-480.webp 480w, /assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Interior of Homerun Fabrication shop with high ceilings, LED lighting, and tools" loading="lazy" width="800" height="600">
         </div>
         <div class="split-content">
           <h2>Built for West Texas</h2>
@@ -185,7 +185,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>If you're inside the service area and you're trying to figure out what it would take to build something in steel, the conversation starts the same way: tell us what you need, and we'll tell you what it'll take to build it right.</p>
         </div>
         <div class="split-image">
-          <img src="https://i.imgur.com/5cECBcL.jpeg" alt="Covered cattle pen with welded pipe railing built by Homerun Fabrication for a Texas Panhandle ranch" loading="lazy" width="800" height="600">
+          <img src="/assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-960.webp" srcset="/assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-480.webp 480w, /assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Covered cattle pen with welded pipe railing built by Homerun Fabrication for a Texas Panhandle ranch" loading="lazy" width="800" height="600">
         </div>
       </div>
     </div>

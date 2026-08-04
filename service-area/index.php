@@ -2,12 +2,12 @@
 $pageTitle        = "Service Area | Homerun Fabrication, Amarillo TX";
 $pageDescription  = "80-mile radius from Amarillo, TX — Canyon, Hereford, Borger, Pampa, Dumas, and the Texas Panhandle. Steel buildings and barndominiums since 2008.";
 $canonicalUrl     = "https://homerunfabrication.com/service-area";
-$ogImage          = "https://i.imgur.com/lGNo1JA.jpeg";
+$ogImage          = "/assets/images/lgno1ja-480.webp";
 $currentPage      = "service-area";
 $useSwiper        = false;
 $useTilt          = false;
 $useTyped         = false;
-$heroImagePreload = "https://i.imgur.com/lGNo1JA.jpeg";
+$heroImagePreload = "/assets/images/lgno1ja-480.webp";
 
 $schemaMarkup = <<<JSON
 {
@@ -50,7 +50,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- HERO -->
-  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('https://i.imgur.com/lGNo1JA.jpeg');">
+  <section class="page-hero" style="background-image: linear-gradient(180deg, rgba(15,28,36,0.65) 0%, rgba(15,28,36,0.88) 100%), url('/assets/images/lgno1ja-480.webp');">
     <div class="container">
       <span class="page-eyebrow">Service Area &middot; Texas Panhandle</span>
       <h1>Service Area &mdash; Homerun Fabrication, Amarillo, TX</h1>

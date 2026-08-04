@@ -11,7 +11,7 @@ function nav_active($page, $current) {
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-inner">
     <a href="/" class="nav-logo" aria-label="Homerun Fabrication — Home">
-      <img src="https://i.imgur.com/oTQIMmj.png" alt="Homerun Fabrication" width="180" height="50">
+      <img src="/assets/images/logo.png" alt="Homerun Fabrication" width="180" height="50">
     </a>
 
     <ul class="nav-menu" role="menubar">
