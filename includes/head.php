@@ -68,7 +68,7 @@ $noindex         = $noindex         ?? false;
   <?php endif; ?>
 
   <!-- Stylesheet (cache-busted) -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=6">
 
   <!-- Favicon -->
   <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
