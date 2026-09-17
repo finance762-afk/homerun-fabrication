@@ -48,6 +48,7 @@ $useTyped  = $useTyped  ?? false;
     <div>&copy; <?php echo date('Y'); ?> Homerun Fabrication. All Rights Reserved.</div>
     <div><a href="https://www.pageoneinsights.com" target="_blank" rel="dofollow">Web Design &amp; Hosting by Page One Insights, LLC</a></div>
   </div>
+  <?php include __DIR__ . '/partner-badge.php'; ?>
 </footer>
 
 <button class="back-to-top" aria-label="Back to top">
