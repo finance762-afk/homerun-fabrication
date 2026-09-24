@@ -74,12 +74,12 @@ $noindex         = $noindex         ?? false;
   <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 
   <!-- GA4 placeholder -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-68PN8LEXDB"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXX');
+    gtag('config', 'G-68PN8LEXDB');
   </script> -->
 
   <?php if ($currentPage === 'home'): ?>
@@ -93,6 +93,11 @@ $noindex         = $noindex         ?? false;
   </script>
   <?php endif; ?>
 <?php require_once __DIR__ . '/edit-mode.php'; ?>
+  <?php if (!empty($googleAnalyticsId) && preg_match('/^G-[A-Z0-9]{6,}$/', $googleAnalyticsId) && strpos($googleAnalyticsId, 'XXXX') === false): ?>
+  <!-- Google Analytics 4 (ga4-fleet) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo htmlspecialchars($googleAnalyticsId, ENT_QUOTES, 'UTF-8'); ?>"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','<?php echo htmlspecialchars($googleAnalyticsId, ENT_QUOTES, 'UTF-8'); ?>');</script>
+  <?php endif; ?>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to content</a>
