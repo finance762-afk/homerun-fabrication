@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Steel Buildings in Amarillo, TX | Homerun Fabrication";
 $pageDescription  = "Engineered steel buildings in Amarillo, TX. Shops, barns, and commercial structures built for Texas Panhandle wind loads since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/services/steel-buildings";
+$canonicalUrl     = "https://homerunfabrication.com/services/steel-buildings/";
 $ogImage          = "/assets/images/lgno1ja-480.webp";
 $currentPage      = "services";
 $useSwiper        = false;

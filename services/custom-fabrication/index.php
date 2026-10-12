@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Custom Metal Fabrication in Amarillo, TX | Homerun";
 $pageDescription  = "Custom metal fabrication and welding in Amarillo, TX. Structural steel, brackets, and one-off components built in our shop since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/services/custom-fabrication";
+$canonicalUrl     = "https://homerunfabrication.com/services/custom-fabrication/";
 $ogImage          = "/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp";
 $currentPage      = "services";
 $useSwiper        = false;

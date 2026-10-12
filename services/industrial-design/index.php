@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Industrial Steel Design in Amarillo, TX | Homerun Fab";
 $pageDescription  = "Engineered structural steel solutions in Amarillo, TX. Industrial fabrication for ag, oilfield, and commercial projects since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/services/industrial-design";
+$canonicalUrl     = "https://homerunfabrication.com/services/industrial-design/";
 $ogImage          = "/assets/images/gxhrvdi-480.webp";
 $currentPage      = "services";
 $useSwiper        = false;

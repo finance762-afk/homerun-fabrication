@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Contact Homerun Fabrication | Amarillo, TX";
 $pageDescription  = "Contact Homerun Fabrication in Amarillo, TX. Call (806) 671-7930 for steel buildings, barndominiums, and metal fabrication quotes.";
-$canonicalUrl     = "https://homerunfabrication.com/contact";
+$canonicalUrl     = "https://homerunfabrication.com/contact/";
 $ogImage          = "/assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp";
 $currentPage      = "contact";
 $useSwiper        = false;

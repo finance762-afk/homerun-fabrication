@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Pipe Fencing in Amarillo, TX | Homerun Fabrication";
 $pageDescription  = "Welded pipe fencing, cattle pens, and alley chutes in Amarillo, TX. Heavy-duty livestock fencing for the Texas Panhandle since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/services/pipe-fencing";
+$canonicalUrl     = "https://homerunfabrication.com/services/pipe-fencing/";
 $ogImage          = "/assets/images/covered-cattle-pen-with-heavy-duty-pipe-railing-960.webp";
 $currentPage      = "services";
 $useSwiper        = false;

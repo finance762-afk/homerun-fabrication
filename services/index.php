@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Services | Homerun Fabrication, Amarillo TX";
 $pageDescription  = "Steel buildings, barndominiums, custom welding, pipe fencing, and metal fabrication in Amarillo, TX. Texas Panhandle since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/services";
+$canonicalUrl     = "https://homerunfabrication.com/services/";
 $ogImage          = "/assets/images/lgno1ja-480.webp";
 $currentPage      = "services";
 $useSwiper        = false;

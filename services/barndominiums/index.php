@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Barndominiums in Amarillo, TX | Homerun Fabrication";
 $pageDescription  = "Custom barndominium builder in Amarillo, TX. Steel-frame homes with finished kitchens, bathrooms, and living spaces. Texas Panhandle, since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/services/barndominiums";
+$canonicalUrl     = "https://homerunfabrication.com/services/barndominiums/";
 $ogImage          = "/assets/images/two-story-barndominium-built-by-homerun-fabricat-960.webp";
 $currentPage      = "services";
 $useSwiper        = false;

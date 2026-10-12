@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "About Homerun Fabrication | Amarillo, TX Builder";
 $pageDescription  = "Founded in 2008 by Corey Homer. Custom steel buildings and barndominiums across the Texas Panhandle, built ground-up by one accountable crew.";
-$canonicalUrl     = "https://homerunfabrication.com/about";
+$canonicalUrl     = "https://homerunfabrication.com/about/";
 $ogImage          = "/assets/images/homerun-fabrication-shop-building-with-stone-wai-1600.webp";
 $currentPage      = "about";
 $useSwiper        = false;

@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Prototype Fabrication in Amarillo, TX | Homerun Fab";
 $pageDescription  = "Custom metal prototype fabrication in Amarillo, TX. Single-unit and small-batch steel prototypes for inventors and engineers since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/services/prototyping";
+$canonicalUrl     = "https://homerunfabrication.com/services/prototyping/";
 $ogImage          = "/assets/images/finished-steel-shop-interior-with-high-ceilings-960.webp";
 $currentPage      = "services";
 $useSwiper        = false;

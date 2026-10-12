@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Service Area | Homerun Fabrication, Amarillo TX";
 $pageDescription  = "80-mile radius from Amarillo, TX — Canyon, Hereford, Borger, Pampa, Dumas, and the Texas Panhandle. Steel buildings and barndominiums since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/service-area";
+$canonicalUrl     = "https://homerunfabrication.com/service-area/";
 $ogImage          = "/assets/images/lgno1ja-480.webp";
 $currentPage      = "service-area";
 $useSwiper        = false;

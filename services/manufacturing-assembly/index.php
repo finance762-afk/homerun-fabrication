@@ -1,7 +1,7 @@
 <?php
 $pageTitle        = "Manufacturing & Assembly | Amarillo, TX | Homerun Fab";
 $pageDescription  = "Production manufacturing and contract assembly in Amarillo, TX. Repeat batch runs and weldments for ag and industrial customers since 2008.";
-$canonicalUrl     = "https://homerunfabrication.com/services/manufacturing-assembly";
+$canonicalUrl     = "https://homerunfabrication.com/services/manufacturing-assembly/";
 $ogImage          = "/assets/images/lgno1ja-480.webp";
 $currentPage      = "services";
 $useSwiper        = false;
